@@ -108,9 +108,7 @@ def changing_alan
         :languages => ["C"]
       }
     }
-  programmer_hash[:alan_kay] = {
-		:known_for => "Object Orientation", "GUI"
-	}
+  programmer_hash[:alan_kay][:known_for] = "Object Orientation", "GUI"
 	programmer_hash
 end
 
